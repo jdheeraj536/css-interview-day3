@@ -1,0 +1,65 @@
+*{
+    margin: 10px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: #00a5ec;
+    padding: 12px 52px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 1.5vw;
+
+}
+ a{
+    text-decoration: none;
+}
+.font{
+    font-family: "Sofia", sans-serif;
+    font-size: 25px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+.box:hover{
+    width:300px;
+    transform: rotate(360deg);
+    transition: all 10s ease-in ;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+.media{
+    width: 100px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #00a5ec;
+    text-align: center;
+}
+@media screen and (min-device-width: 360px) and (max-device-width: 768px) { 
+    .media{
+        color: white;
+        background-color: red;
+    }
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    animation: dheeraj 2s  ease 1s infinite ;
+}
+@keyframes dheeraj {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
